@@ -6,7 +6,7 @@
 ### Data Analysis
 - For each of the extracted texts from the article, performed textual analysis and compute variables, given in the output structure excel file.
 ### Output Data Structure 
-- POSITIVE SCORE -> This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
+##### POSITIVE SCORE -> This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
 -	NEGATIVE SCORE -> This score is calculated by assigning the value of -1 for each word if found in the Negative Dictionary and then adding up all the values. I multiplied the score with -1 so that the score is a positive number.
 -	POLARITY SCORE -> This is the score that determines if a given text is positive or negative in nature. It is calculated by using the formula: 
 Polarity Score = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) + 0.000001)
